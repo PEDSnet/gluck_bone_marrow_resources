@@ -1,0 +1,10 @@
+﻿field_name,valueset_item,valueset_item_descriptor
+RESULT_MODIFIER,EQ,EQ=Equal
+RESULT_MODIFIER,GE,GE=Greater than or equal to
+RESULT_MODIFIER,GT,GT=Greater than
+RESULT_MODIFIER,LE,LE=Less than or equal to
+RESULT_MODIFIER,LT,LT=Less than
+RESULT_MODIFIER,TX,TX=Text
+RESULT_MODIFIER,NI,NI=No information
+RESULT_MODIFIER,UN,UN=Unknown
+RESULT_MODIFIER,OT,OT=Other
