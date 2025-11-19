@@ -2,7 +2,7 @@
 
 This repository includes PEDSnet resources that may be useful for planned/ongoing bone marrow studies. The repository is structure using the PEDSnet standard framework and set up to be run against an EHR in the PEDSnet data model on a Postgres database; code will likely need to be adapted to run in other settings.
 
-## Code for identifying AKI
+## AKI
 
 Code for a modifidied KDIGO (mKDIGO) definition of AKI that was implemented for a prior feasibility query is in [driver_aki.R](./code/driver_aki.R). The cohort output at line 404 is the set of patients who meet the AKI definition below. Codesets that are used in the code can be found in the [specs](./specs) subdirectory.
 
@@ -10,7 +10,7 @@ Code for the KDIGO AKI definition (which uses CRRT data) is in development, and 
 
 <img src="./mKDIGO.png" alt="mKDIGO definition" width="400"/>
 
-## Code for computing eGFR
+## eGFR
 
 This repository includes code for computing eGFR values; it is part of the CKD Phenotype code used for the Clinical Insights Report--code for all steps up through the step at which eGFRs are computed was included. Functions are defined in [cohort_egfr.R](./code/cohort_egfr.R) and called in [driver_egfr.R](./code/driver_egfr.R). Accompanying codesets can found in the [specs](./specs) subdirectory. Please see the function definitions for further documentation.
 
