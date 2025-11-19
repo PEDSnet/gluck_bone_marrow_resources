@@ -65,6 +65,10 @@ req_basename <- 'gluck_bone_marrow_resources'
 #' @md
 base_dir <- 'auto-detect'
 
+my_session ← argos$new()
+set_argos_default(my_session)
+
+
 if (base_dir == 'auto-detect') {
     base_dir <-
       {
@@ -92,7 +96,7 @@ if (base_dir == 'auto-detect') {
     message('Inferred request base directory of ', base_dir)
 }
 
-source(file.path(base_dir, 'code', 'config.R'))
+#source(file.path(base_dir, 'code', 'config.R'))
 config('base_dir', base_dir)
 # Start with empty set of additional packages
 config('extra_packages', c())
