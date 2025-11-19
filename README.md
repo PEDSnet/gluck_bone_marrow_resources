@@ -18,7 +18,7 @@ This repository includes code for computing eGFR values; it is part of the CKD P
 
 This repository includes the code, adapted for the Nephrology Data Insights dashboard, for computing the Chronic Kidney Disease phenotype.
 
-**PLEASE NOTE** the PRESERVE definition requires a lower eGFR bound of 15, so [this line](./code/cohort_ckd_clinicalinsights.R#L27) may need to be changed based on study requirements
+**PLEASE NOTE** the PRESERVE definition requires a lower eGFR bound of 15, so [this line](./code/cohort_ckd_nephdatainsights.R#L27) may need to be changed based on study requirements
 
 ## Composite Renal Outcome
 
