@@ -6,9 +6,12 @@ This repository includes PEDSnet resources that may be useful for planned/ongoin
 
 Code for a modifidied KDIGO (mKDIGO) definition of AKI that was implemented for a prior feasibility query is in [driver_aki.R](./code/driver_aki.R). The cohort output at line 404 is the set of patients who meet the AKI definition below. Codesets that are used in the code can be found in the [specs](./specs) subdirectory.
 
-Code for the KDIGO AKI definition (which uses CRRT data) is in development, and we will update this repository with that code once it becomes available.
-
 <img src="./mKDIGO.png" alt="mKDIGO definition" width="400"/>
+
+Code for the KDIGO AKI definition (which uses CRRT data) has been added to the repo (as of 2/17/2026) as well and is in [driver_kdigo_aki.R](https://github.com/PEDSnet/gluck_bone_marrow_resources/blob/main/code/driver_kdigo_aki.R). Additional functions for running this code are defined in [cohort_demographics.R](https://github.com/PEDSnet/gluck_bone_marrow_resources/blob/main/code/cohort_demographics.R) and in (cohort_kdigo_aki.R)[https://github.com/PEDSnet/gluck_bone_marrow_resources/blob/main/code/cohort_kdigo_aki.R]. Documentation of this definition is included [here](https://github.com/PEDSnet/gluck_bone_marrow_resources/blob/main/AKI%20KDIGO%20Definition.docx).
+
+
+
 
 ## eGFR
 
